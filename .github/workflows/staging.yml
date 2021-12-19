@@ -32,7 +32,6 @@ jobs:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
     - run: yarn build
-    - run: yarn test
 
   publish-alpha:
 
